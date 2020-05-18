@@ -13,6 +13,16 @@
     <link rel="stylesheet" href="static/main.css" />
   </head>
   <body class="is-preload">
+
+        <!-- Scripts -->
+      <script src="../static/assets/js/jquery.min.js"></script>
+      <script src="../static/assets/js/jquery.dropotron.min.js"></script>
+      <script src="../static/assets/js/jquery.scrollex.min.js"></script>
+      <script src="../static/assets/js/browser.min.js"></script>
+      <script src="../static/assets/js/breakpoints.min.js"></script>
+      <script src="../static/assets/js/util.js"></script>
+      <script src="../static/assets/js/main.js"></script>
+
     <div id="page-wrapper">
 
       <!-- Header -->
@@ -34,14 +44,40 @@
 
                 <section class="box special">
                   <span class="image featured"></span>
-                  <h3>Estudios</h3>
-                  <img src="static/escuela.jpg" width="300px" height="200px">
-                  <p>Actualmente soy un estudiante de nivel superior, en el Instituto Tecnológico Superior
-                  de Guanajuato. Estudio la carrera de Ingeniería en sistemas computacionales, y me encuentro cursando el octavo semestre.
-                  </p>
-                <!--  <ul class="actions special">
-                    <li><a href="#" class="button alt">Learn More</a></li>
-                  </ul>-->
+                  
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary col-6 col-12" data-toggle="modal" data-target="#exampleModalCenter">
+                    Estudio
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">Estudio</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="static/images/escuela.jpg" width="300px" height="200px">
+                          <p>Actualmente soy un estudiante de nivel superior, en el Instituto Tecnológico Superior
+                          de Guanajuato. Estudio la carrera de Ingeniería en sistemas computacionales, y me encuentro cursando el octavo semestre.
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <ul class="actions special">
+                            <li><a href="/estudios" class="button alt">Detalles</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                
                 </section>
 
               </div>
@@ -51,12 +87,36 @@
 
                 <section class="box special">
                   <span class="image featured"></span>
-                  <h3>Deporte</h3>
-                  <img src="static/deporte.jpg" width="300px" height="200px">
-                  <p>El deporte ha estado presente toda mi vida, desde 7 u 8 años practico futbol soccer, es mi deporte favorito. Ademas del futbol, disfruto mucho de jugar voleibol y salir a correr.</p>
-                <!--  <ul class="actions special">
-                    <li><a href="#" class="button alt">Learn More</a></li>
-                  </ul>-->
+
+
+
+                  <button type="button" class="btn btn-primary col-6 col-12" data-toggle="modal" data-target="#exampleModalCenter2">
+                    Deporte
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">Deporte</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="static/images/deporte.jpg" width="300px" height="200px">
+                          <p>El deporte ha estado presente toda mi vida, desde 7 u 8 años practico futbol soccer, es mi deporte favorito. Ademas del futbol, disfruto mucho de jugar voleibol y salir a correr.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <ul class="actions special">
+                            <li><a href="/deporte" class="button alt">Detalles</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </section>
 
               </div>
@@ -65,13 +125,38 @@
 
                 <section class="box special">
                   <span class="image featured"></span>
-                  <h3>Tiempo de Ocio</h3>
-                  <img src="static/netflix.jpg" width="300px" height="200px">
-                  <p>Me gusta pasar mi tiempo libre jugando algunos videojuegos, viendo la tele pero sobre todo disfruto de ver series y 
-                  películas en netflix, aunque tambien descargo de diversos sitios web algunas otras de que no se encuentran en netflix.</p>
-                <!--  <ul class="actions special">
-                    <li><a href="#" class="button alt">Learn More</a></li>
-                  </ul>-->
+
+
+
+
+                  <button type="button" class="btn btn-primary col-6 col-12" data-toggle="modal" data-target="#exampleModalCenter3">
+                    Ocio
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">Ocio</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="static/images/netflix.jpg" width="300px" height="200px">
+                          <p>Me gusta pasar mi tiempo libre jugando algunos videojuegos, viendo la tele pero sobre todo disfruto de ver series y 
+                          películas en netflix, aunque tambien descargo de diversos sitios web algunas otras de que no se encuentran en netflix.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <ul class="actions special">
+                            <li><a href="/ocio" class="button alt">Detalles</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
                 </section>
 
               </div>
@@ -97,14 +182,9 @@
 
     </div>
 
-    <!-- Scripts -->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/jquery.dropotron.min.js"></script>
-      <script src="assets/js/jquery.scrollex.min.js"></script>
-      <script src="assets/js/browser.min.js"></script>
-      <script src="assets/js/breakpoints.min.js"></script>
-      <script src="assets/js/util.js"></script>
-      <script src="assets/js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
 </html>
